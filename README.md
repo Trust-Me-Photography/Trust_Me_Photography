@@ -10,6 +10,3 @@
 
 >2023
 > all rights reserved
-
-
-[def]: https://github.com/SrihariKishoreK
