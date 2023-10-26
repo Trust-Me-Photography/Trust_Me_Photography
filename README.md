@@ -5,7 +5,7 @@
 + Srihari Kishore K
 + Sujith
 + Vijay S
-+ (Yogesh Shamlin Shinanth J S)[https://github.com/YOGESHnick]
++ [Yogesh Shamlin Shinanth J S](https://github.com/YOGESHnick)
 
 
 >2023
