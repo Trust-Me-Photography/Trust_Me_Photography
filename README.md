@@ -4,7 +4,7 @@
 + [SivaGanesh N]()
 + [Srihari Kishore K]()
 + [Sujith]()
-+ [Vijay S]()
++ [Vijay S](https://github.com/vijayprashant)
 + [Yogesh Shamlin Shinanth J S](https://github.com/YOGESHnick)
 
 
