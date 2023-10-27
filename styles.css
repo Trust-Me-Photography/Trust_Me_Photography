@@ -82,3 +82,7 @@ iframe{
     width:100vw;
     height:87.3vh;
 }
+video{
+    width: 100vw;
+    /* height: 100vh; */
+}
