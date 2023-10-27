@@ -13,3 +13,28 @@
 .navbar {
     font-family: 'IBM Plex Mono';
 }
+.navbar a{
+
+    color:black;
+    border-radius: 15px;
+    transition: transform .4s;
+    /* font-size: 1.1em; */
+    font-weight: bold;
+}
+.navbar a:hover{
+    color:gray;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.logo{
+    max-width: 30px;
+    max-height: 30px;
+    border:none;
+}
+.top-logo{
+    margin-right: 5px;
+}
+.navbar-brand img{
+    margin-bottom: 7px;
+}
