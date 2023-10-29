@@ -10,6 +10,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caprasimo&family=Dancing+Script:wght@500&family=Delicious+Handrawn&family=Electrolize&family=Freehand&family=IBM+Plex+Mono:wght@700&family=Montserrat:wght@600&family=Nosifer&family=Open+Sans:wght@300&family=Pacifico&family=Ubuntu&family=Zeyada&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+ .card {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color:black;
+  overflow: hidden;
+  width: 50%;
+  height:0;
+  transition: .5s ease;
+}
+
+.card:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: cyan;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+    </style>
 </head>
 <nav id="navbar" class="navbar navbar-expand-lg mnc py-lg-4 fixed-top ">
     <div class="container-fluid f">
@@ -47,6 +88,42 @@
       <source src="assets/water.mp4" type="video/mp4">
     </video>
     
+    <div class="card-group">
+      <div class="card">
+        <img src="birthday.webp" class="card-img-top" alt="...">
+        <div class="overlay">
+          <div class="text">
+            <h3 class="card-title">Birthdays</h3>
+          </div>  
+        </div>
+      </div>
+      <div class="card">
+        <img src="Stage_decoration.jpg" class="card-img-top" alt="...">
+        <div class="overlay">
+          <div class="text">
+            <h3 class="card-title">Decorations</h3>
+          </div>  
+        </div>
+      </div>
+      <div class="card">
+        <img src="puberty.jpg" class="card-img-top" alt="...">
+        <div class="overlay">
+          <div class="text">
+            <h3 class="card-title">Puberty</h3>
+          </div>  
+        </div>
+      </div>
+      <div class="card">
+        <img src="marriage.avif" class="card-img-top" alt="...">
+        <div class="overlay">
+          <div class="text">
+            <h3 class="card-title">Marriage</h3>
+          </div>  
+        </div>
+      </div>
+    </div>
+
+
 
     <div class="conatiner bottom-container">
 
