@@ -218,3 +218,11 @@ select{
     background-color: #ffc800;
     /* padding: 1em; */
 }
+
+
+
+
+/* Define the background color when the "bg-color" class is applied */
+.bg-color {
+    background-color: blue; /* Change this to your desired background color */
+}
