@@ -2,23 +2,24 @@ let prevScrollPos = window.pageYOffset;
 const navbar = document.getElementById("navbar");
 
 window.onscroll = function() {
-    // Check if the viewport width is less than or equal to a certain value (e.g., 768px for phone screens)
-    if (window.innerWidth <= 768) {
-        const currentScrollPos = window.pageYOffset;
+    const currentScrollPos = window.pageYOffset;
 
-        if (prevScrollPos < 100) {
-            // Scrolling up: Remove the "hidden" class and set the background color
-            navbar.classList.remove("hidden");
-            // navbar.style.backgroundColor = "blue"; // Change this to your desired background color
-        } else {
-            // Scrolling down: Add the "hidden" class and reset the background color
-            navbar.classList.add("hidden");
-            // navbar.style.backgroundColor = "transparent"; // Reset the background color
-        }
-
-        prevScrollPos = currentScrollPos;
+    // Check if the user has reached the top of the page
+    if (currentScrollPos === 0) {
+        // At the top: Make the navbar transparent
+        navbar.classList.remove("bg-color");
+    } else if (prevScrollPos < currentScrollPos) {
+        // Scrolling down: Add the "hidden" class to hide the navbar
+        navbar.classList.add("hidden");
+    } else {
+        // Scrolling up: Remove the "hidden" class to show the navbar with a background color
+        navbar.classList.remove("hidden");
+        navbar.classList.add("bg-color"); // Add your desired background color class
     }
+
+    prevScrollPos = currentScrollPos;
 }
+
 // 
 
 // JavaScript to handle navbar background color toggle

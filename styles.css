@@ -224,5 +224,6 @@ select{
 
 /* Define the background color when the "bg-color" class is applied */
 .bg-color {
-    background-color: blue; /* Change this to your desired background color */
+    /* Change this to your desired background color */
+    background-color: #ffc800;
 }
