@@ -227,3 +227,13 @@ select{
     /* Change this to your desired background color */
     background-color: #ffc800;
 }
+.home{
+    width: 30%;
+    height: 30%;
+}
+.gom{
+    margin-top: 10px;
+    padding-left:4vw;
+    max-width: 100%;
+    max-height: 100%;
+}
