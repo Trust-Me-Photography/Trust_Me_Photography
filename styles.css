@@ -14,14 +14,14 @@
     font-family: 'IBM Plex Mono';
 }
 /* styling to hide navbar when scrolled (next 8 lines) */
-#navbar {
+/* #navbar {
     position: fixed;
     top: 0;
     transition: top 0.3s;
 }
 #navbar.hidden {
     top: -70px;
-}
+} */
 
 
 .navbar a{

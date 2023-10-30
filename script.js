@@ -70,36 +70,36 @@
 
 
 
-let prevScrollPos = window.pageYOffset;
-const navbar = document.getElementById("navbar");
-const navbarToggler = document.getElementById("navbar-toggler");
-let buttonClicked = false; // Initialize a variable to track if the button is clicked
+// let prevScrollPos = window.pageYOffset;
+// const navbar = document.getElementById("navbar");
+// const navbarToggler = document.getElementById("navbar-toggler");
+// let buttonClicked = false; // Initialize a variable to track if the button is clicked
 
-// Event listener for the Bootstrap navbar toggler button
-navbarToggler.addEventListener("click", function () {
-    buttonClicked = !buttonClicked; // Toggle the buttonClicked variable
-    if (buttonClicked) {
-        navbar.classList.add("bg-color"); // Add background color when the button is clicked
-    } else {
-        navbar.classList.remove("bg-color"); // Remove background color when the button is unclicked
-    }
-});
+// // Event listener for the Bootstrap navbar toggler button
+// navbarToggler.addEventListener("click", function () {
+//     buttonClicked = !buttonClicked; // Toggle the buttonClicked variable
+//     if (buttonClicked) {
+//         navbar.classList.add("bg-color"); // Add background color when the button is clicked
+//     } else {
+//         navbar.classList.remove("bg-color"); // Remove background color when the button is unclicked
+//     }
+// });
 
-window.onscroll = function() {
-    const currentScrollPos = window.pageYOffset;
+// window.onscroll = function() {
+//     const currentScrollPos = window.pageYOffset;
 
-    if (prevScrollPos < currentScrollPos) {
-        // Scrolling down: Add the "hidden" class to hide the navbar
-        navbar.classList.add("hidden");
-    } 
-    else if ((currentScrollPos === 0)) {
-        navbar.classList.remove("bg-color");
-        }
-    else {
-        // Scrolling up: Remove the "hidden" class to show the navbar
-        navbar.classList.remove("hidden");
-        navbar.classList.add("bg-color");
-    }
+//     if (prevScrollPos < currentScrollPos) {
+//         // Scrolling down: Add the "hidden" class to hide the navbar
+//         navbar.classList.add("hidden");
+//     } 
+//     else if ((currentScrollPos === 0)) {
+//         navbar.classList.remove("bg-color");
+//         }
+//     else {
+//         // Scrolling up: Remove the "hidden" class to show the navbar
+//         navbar.classList.remove("hidden");
+//         navbar.classList.add("bg-color");
+//     }
 
-    prevScrollPos = currentScrollPos;
-}
+//     prevScrollPos = currentScrollPos;
+// }
