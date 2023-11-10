@@ -18,6 +18,7 @@ html{
 .navbar {
     font-family: 'IBM Plex Mono';
     color: #ffc800;
+    border-bottom: 0.1px solid #f5f5f5;
 }
 .mnc{
     background-color: #113946;
