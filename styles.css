@@ -4,6 +4,7 @@
 .navbar-brand{
     font-family: 'Pacifico';
     font-size: 25px;
+    color: #ffc800;
 }
 .center{
     text-align: center;
@@ -12,6 +13,11 @@
 }
 .navbar {
     font-family: 'IBM Plex Mono';
+    color: #ffc800;
+}
+.mnc{
+    background-color: #113946;
+    color: #ffc800;
 }
 /* styling to hide navbar when scrolled (next 8 lines) */
 /* #navbar {
@@ -26,7 +32,7 @@
 
 .navbar a{
 
-    color:black;
+    color: #ffc800;
     border-radius: 15px;
     transition: transform .4s;
     /* font-size: 1.1em; */
