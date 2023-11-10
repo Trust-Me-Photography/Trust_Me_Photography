@@ -1,6 +1,10 @@
 *{
     text-align: center;
 }
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 19vh;
+}
 .navbar-brand{
     font-family: 'Pacifico';
     font-size: 25px;
