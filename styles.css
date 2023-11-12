@@ -310,3 +310,9 @@ select{
 .cont-b i:hover{
     color:cyan;
 }
+section{
+    margin-top: 100px;
+}
+.bottom-container li{
+    margin-bottom: 10px;
+}
