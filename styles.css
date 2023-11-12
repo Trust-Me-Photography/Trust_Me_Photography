@@ -1,6 +1,5 @@
 *{
     text-align: center;
-    background-color: #35859f;
 }
 html{
     scroll-behavior: smooth;
@@ -11,24 +10,15 @@ html{
     font-size: 25px;
     color: #ffc800;
 }
-.f{
-    background-color: #113946;
-}
 .center{
     text-align: center;
     justify-content: center;
     font-family: 'Nosifer';
-    color:#ffc800;
-}
-.center-it{
-    background-color: #113946;
-}
-.center-it h3{
-    background-color: #113946;
 }
 .navbar {
     font-family: 'IBM Plex Mono';
     color: #ffc800;
+    border-bottom: 0.1px solid #f5f5f5;
 }
 .mnc{
     background-color: #113946;
@@ -43,15 +33,10 @@ html{
 #navbar.hidden {
     top: -70px;
 } */
-.top-links{
-    background-color: #113946;
-}
-.about{
-    color: #ffc800;
-}
+
 
 .navbar a{
-    background-color: #113946;
+
     color: #ffc800;
     border-radius: 15px;
     transition: transform .4s;
@@ -65,28 +50,27 @@ html{
     transform: scale(1.1);
 }
 .logo{
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 30px;
+    max-height: 30px;
     border:none;
-    background-color: #113946;
 }
 .top-logo{
     margin-right: 5px;
-    background-color: #113946;
 }
 .navbar-brand img{
     margin-bottom: 7px;
 }
 .bottom-container {
     text-align: center;
+    margin-top: 2rem;
     padding:30px;
-    background-color: #113946;
+    background-color: black;
     justify-content: space-between;
     display: flex;
     color:#f5f5f5;
 }
 .bottom-container a:hover{
-    color: #ffc800;
+    color: aqua;
 }
 ul{
     list-style-type: none;
@@ -105,14 +89,10 @@ footer a
 {
     color:white;
     text-decoration: none;
-    background-color: black;
 }
 footer a:hover 
 {
-    color: #ffc800;
-}
-footer p{
-    background-color: black;
+    color: aqua;
 }
 .last li{
     margin-top: 30px;
@@ -150,9 +130,7 @@ form
     margin-bottom: 30px;
     margin-left: max(15px,20px);
 }
-.f-img{
-    background-color: #113946;
-}
+
 .form-img{
     margin-top: 30px;
     /* max-width:350px;
@@ -189,7 +167,6 @@ form button{
 }
 form i {
     margin-right: 10px;
-    background-color: black;
 }
 /* form a:hover{
     color:#f5f5f5;
@@ -228,19 +205,15 @@ select{
 .contact-us{
     padding: 1em;
     font-weight: 500;
-    color: #ffc800;
-    background-color: #35859f;
 }
 
 .contact-us p{
     font-size: 18px;
-    background-color: #35859f;
 }
 .contact-us h4,h3{
     font-weight: 800;
     margin-bottom:3rem;
     margin-top: 3rem;
-    background-color: #35859f;
 }
 .map{
     max-width: 95vw;
@@ -253,7 +226,7 @@ select{
 .map-container{
     justify-content: center;
     text-align: center;
-    background-color: #35859f;
+    background-color: #ffc800;
     /* padding: 1em; */
 }
 
@@ -315,7 +288,7 @@ select{
   }
   
   .text {
-    color: #ffc800;
+    color: cyan;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -324,10 +297,4 @@ select{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
-  .cont-b{
-    background-color: #113946;
-  }
-  .cont-b li,ul,h4,i,a{
-    background-color: #113946;
   }
