@@ -103,3 +103,15 @@
 
 //     prevScrollPos = currentScrollPos;
 // }
+
+
+// Tab changes
+const tabTitle = document.title;
+
+window.addEventListener("blur", ( )=> {
+    document.title = "Capture your memories ! "
+})
+
+window.addEventListener("focus" , ()=> {
+    document.title = tabTitle;
+})
