@@ -56,8 +56,8 @@ html{
     transform: scale(1.1);
 }
 .logo{
-    max-width: 30px;
-    max-height: 30px;
+    max-width: 50px;
+    max-height: 40px;
     border:none;
 }
 .top-logo{
@@ -118,6 +118,7 @@ video{
 .try{
     margin-top: 5px;
     margin-bottom: 20px;
+    color: #ffc800;
 }
 
 /* Form styling */
@@ -315,4 +316,7 @@ section{
 }
 .bottom-container li{
     margin-bottom: 10px;
+}
+h2{
+    margin-bottom: 70px;
 }
