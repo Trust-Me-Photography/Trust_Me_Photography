@@ -1,6 +1,9 @@
 *{
     text-align: center;
 }
+body{
+    background-color: #dbe6e9;
+}
 html{
     scroll-behavior: smooth;
     scroll-padding: 19vh;
@@ -14,6 +17,9 @@ html{
     text-align: center;
     justify-content: center;
     font-family: 'Nosifer';
+    /* font-family: 'Ubuntu'; */
+    color: #113946;
+    font-weight: bold;
 }
 .navbar {
     font-family: 'IBM Plex Mono';
@@ -64,10 +70,10 @@ html{
     text-align: center;
     margin-top: 2rem;
     padding:30px;
-    background-color: black;
+    background-color: #113946;
     justify-content: space-between;
     display: flex;
-    color:#f5f5f5;
+    color:#ffc800;
 }
 .bottom-container a:hover{
     color: aqua;
@@ -77,8 +83,8 @@ ul{
 }
 footer
 {
-    color:#f5f5f5;
-    background-color: black;
+    color:#ffc800;
+    background-color:#113946 ;
     padding:auto;
     text-align: center;
     font-size: 12px;
@@ -298,3 +304,9 @@ select{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+.cont-b i{
+    color:#ffc800;
+}
+.cont-b i:hover{
+    color:cyan;
+}
