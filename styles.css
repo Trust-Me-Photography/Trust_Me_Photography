@@ -267,7 +267,7 @@ select{
 /* card styling */
 .card {
     position: relative;
-    width: 50%;
+    width: 100%;
   }
   
   .image {
